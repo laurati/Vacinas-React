@@ -1,13 +1,10 @@
-import FormularioUsu from "./Components/FormularioUsu/FormularioUsu";
-import NavBar from "./Components/NavBar/NavBar";
-import TabelaUsu from "./Components/TabelaUsu/TabelaUsu";
+import Routes from './Components/Routes/Routes'
 
 
 function App() {
   return (
     <>
-    <NavBar/>
-    <FormularioUsu/>
+    <Routes/>
     
 
     </>

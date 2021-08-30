@@ -1,9 +1,11 @@
 import * as React from 'react';
 import './FormularioUsu.css'
+import NavBar from '../NavBar/NavBar';
 
 const FormularioUsu = () => {
     return (
         <>
+        <NavBar/>
         
         <div>
             <h3>Cadastro de Usuários</h3>

@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import DataGrid from 'react-data-grid';
+import NavBar from '../NavBar/NavBar';
 
 const TabelaUsu = () => {
 
@@ -18,7 +19,10 @@ const TabelaUsu = () => {
       ];
 
     return (
+      <>
+        <NavBar/>
         <DataGrid columns={columns} rows={rows} />
+      </>
     )
 }
 
